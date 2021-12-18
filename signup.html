@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="student.css">
+    <script src="https://kit.fontawesome.com/3a33407e15.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="login">
+        <h2> Employ Registration</h2>
+        <form action="/companysign" method="POST">
+            <label><b>Company Website</b></label>
+            <input type="text" placeholder="Enter your Company Website" name="cname" required>
+
+            <label><b>Category</b></label>
+            <input type="text" placeholder="Enter your Category" name="category" required>
+
+            <!-- <label><b>Location</b></label>
+            <input type="text" placeholder="Enter your Location" name="loc" required> -->
+            
+            <label><b>Enter your Email</b></label>
+            <input type="text" placeholder="Enter your Email" name="email" required>
+            
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter your password" name="pass" required>
+
+            <label><b>Location</b></label>
+            <input type="text" placeholder="Enter your location" name="loc" required>
+
+            <label><b>Job description</b></label>
+            <input type="text" placeholder="" name="job" required>
+
+
+            <button type="submit" name="submit">SUBMIT</button>
+            <!-- <input type="checkbox" checked="checked"> Remember me -->
+        </form>
+        <!-- <form action=""></form>
+        <label><b>Name</b></label>
+        <input type="text" placeholder="Enter your name" name="uname" required>
+
+        <label><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label><b>Create Password</b></label>
+        <input type="password" placeholder="Create Password" name="psw" required> -->
+
+        <!-- <h2>For <span>Student </span>Click Here <i class="fas fa-hand-point-down"></i></h2>
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Employer</button>
+        <h2>For <span>Employ </span>Click Here <i class="fas fa-hand-point-down"></i></h2>
+    <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Student</button> -->
+    </div>
+    <div class="login">
+        <h2>Candidate Registration</h2>
+        <form action="/usersign" method="POST">
+
+                <label><b>Name</b></label>
+                <input type="text" placeholder="Enter your Name" name="uname" required>
+
+                <!-- <label><b>Location</b></label>
+                <input type="text" placeholder="Enter your Location" name="psw" required> -->
+
+                <label><b>Enter your Email</b></label>
+                <input type="text" placeholder="Enter your Email" name="email" required>
+                
+                <label><b>Password</b></label>
+                <input type="password" placeholder="Enter your password" name="pass" required>
+
+                <label><b>Location</b></label>
+                <input type="text" placeholder="Enter your location" name="loc" required>
+
+
+                <button type="submit" name="submit">SUBMIT</button>
+                <!-- <input type="checkbox" checked="checked"> Remember me -->
+            <!-- </div> -->
+
+            <!-- <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id02').style.display='none'"
+                    class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="./forgetpassword.html">password</a></span>
+            </div> -->
+        </form>
+    </div>
+
+</body>
+</html>
